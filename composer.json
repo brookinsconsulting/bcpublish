@@ -1,0 +1,41 @@
+{
+    "name": "brookinsconsulting/bcpublish",
+    "description": "eZ Publish Legacy (4.x) distribution which includes powerful additional tools. Great for smart developers!",
+    "type": "ezpublish-legacy",
+    "keywords": [ "eZ Publish", "eZ Publish Legacy", "BC Publish", "maintainer", "bcpublish", "distribution", "flavor" ],
+    "homepage": "https://github.com/brookinsconsulting/bcpublish",
+    "license": "GPL-2.0-only",
+    "suggest": {
+        "php-64bit": "For support of more than 30 languages, a 64bit php installation on all involved prod/dev machines is required",
+        "ext-curl": "Curl provides better support for interacting with other servers, like downloading packages over SSL",
+        "ext-gd": "Unless you have ImageMagic installed GD is required for eZ Publish to be able to manipulate images",
+        "ext-mysqli": "Mysqli is the default database handler used by eZ Publish",
+        "ext-openssl": "OpenSSL provides cryptographically secure random bytes, which is used in certain parts of the product to greatly improve security",
+        "ext-pcntl": "If you plan to take advantage of eZ Publish Async publishing feature, then pcntl extension is required",
+        "ezsystems/ezsi-ls": "ezsi would allow you to use Edge/Server Side Includes of blocks in templates",
+        "ezsystems/ezscriptmonitor-ls": "ezscriptmonitor makes it possible to better deal with long running bulk operations within eZ Publish",
+        "ezsystems/ezfind-ls": "ezfind is a Solr based advance search engine for eZ Publish with a lot more features then the built in search",
+        "ezsystems/eztags-ls": "eztags is a full tagging/taxonomy solution for eZ Publish replacing the simpler builtin ezkeywords datatype"
+    },
+    "require": {
+        "php": "~5.5|~7.0",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-pcre": "*",
+        "ext-json": "*",
+        "ext-iconv": "*",
+        "ext-reflection": "*",
+        "ext-session": "*",
+        "ext-spl": "*",
+        "ext-simplexml": "*",
+        "brookinsconsulting/bcezpublish-legacy": "*"
+    },
+    "authors": [
+        {
+            "name": "eZ dev-team & eZ Community",
+            "homepage": "https://github.com/ezsystems/ezpublish-legacy/contributors"
+        }
+    ]
+}
+
