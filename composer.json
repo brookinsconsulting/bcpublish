@@ -29,7 +29,8 @@
         "ext-session": "*",
         "ext-spl": "*",
         "ext-simplexml": "*",
-        "brookinsconsulting/bcezpublish-legacy": "*"
+        "brookinsconsulting/bcezpublish-legacy": "dev-master",
+        "brookinsconsulting/bcezadmindesignoverride": "dev-master"
     },
     "authors": [
         {
